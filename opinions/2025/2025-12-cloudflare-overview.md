@@ -3,7 +3,7 @@
 
 # Cloudflare判決とインフラ事業者責任の射程
 # ― 事件概要と今後の論点の整理 ―
-初版：2025-12-05
+[初版：2025-12-05] (https://github.com/akis0/akis0.github.io/commit/5749f53ef7147bc9f3785747aa8530e916343b52)
 
 ## 事件概要
 
