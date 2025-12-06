@@ -3,8 +3,7 @@
 ## ―― インフラ幇助責任・認知の自由・情報安全保障
 
 [初版 : 2025-12-06](https://github.com/akis0/akis0.github.io/commit/2597b4f548ac1f022a701156526552fc9c19510d)
-[2版 : 2025-12-06](https://github.com/akis0/akis0.github.io/commit/d6e09ddc373c82b65fd18a6d10318d48f0f5a0be)
-[2.1版 : 2025-12-06](https://github.com/akis0/akis0.githu)b.io/commit/14f761ef1c51be9b8d3d3fc444ece4520c96bd64)
+[2版 : 2025-12-06](https://github.com/akis0/akis0.github.io/commit/ac0c907f30c120eb90d21e80179f4e833b1a03d4)
 ## 序論：Cloudflare判決は何の事件なのか
 
 本稿は、2025年11月19日の東京地裁によるいわゆるCloudflare判決を素材として、著作権法・情報流通プラットフォーム法制・民法一般不法行為・情報安全保障の四つのレイヤーがどのように接続しうるかを検討するものである。ただし本稿は、いわゆる学術論文でも実務解説でもないことには留意されたし。まず法技術レイヤーにおける本件の位置づけを整理し、その上で、認知の自由・情報安全保障・lawfare の観点から、この判決が各アクターにどのような攻守のオプションを与えたのかを検討する。
