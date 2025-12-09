@@ -1,8 +1,8 @@
 # 認知戦とは何か
 ──durable disorder 時代の「頭の中の戦場」
 
-[初版：2025-12-05](https://github.com/akis0/akis0.github.io/commit/ea92bb31fa0facf59f5f36ac203fa72158e32d8a)
-
+[初版: 2025-12-05](https://github.com/akis0/akis0.github.io/commit/ea92bb31fa0facf59f5f36ac203fa72158e32d8a)
+[第2版: 2025-12-09](https://github.com/akis0/akis0.github.io/commit/6709c78e5252eae7431e41071470e150389d869c)
 このページは、佐藤雅俊・上田篤盛『情報戦、心理戦、そして認知戦』をベースにしつつ、
 Sean McFate の durable disorder 論と lawfare（ロー・フェア）の観点を混ぜて、
 いま何が「認知戦」と呼ばれているのか、その座標軸を勝手に整理する試みである。
