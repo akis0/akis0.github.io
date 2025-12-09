@@ -86,7 +86,7 @@ Sean McFate の durable disorder 論と lawfare（ロー・フェア）の観点
 
 Sean McFate は『The New Rules of War』で、
 冷戦期までの「国家 vs 国家」を前提にした戦争観は崩れ、
-**durable disorder（恒常的な無秩序状態）**が常態化した世界を描く。
+**durable disorder（慢性的無秩序状態）**が常態化した世界を描く。
 
 そこでは、
 
@@ -112,7 +112,7 @@ Sean McFate は『The New Rules of War』で、
 著者のバックグラウンドと想定読者を考えれば、国家対国家モデル、特に権威主義国家対西側諸国の構図に議論を絞るという選択は理解できるが、durable disorder の現実を説明するには、国家に限らない非国家アクターの錯綜を組み込む必要がある。
 
 McFate は、民間軍事会社・企業・NGO・犯罪組織など、
-**非国家アクターが錯綜する恒常的無秩序**として durable disorder を描く。
+**非国家アクターが錯綜する慢性的無秩序**として durable disorder を描く。
 つまり durable disorder 的な絵では、
 
 > 国家＋企業＋PMC＋NGO＋犯罪組織＋プラットフォーム
