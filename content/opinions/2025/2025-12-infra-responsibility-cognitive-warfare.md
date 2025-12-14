@@ -1,3 +1,10 @@
++++
+title = "Cloudflare判決は何を武器化したのか――インフラ幇助責任・認知の自由・情報安全保障"
+date = 2025-12-06
+template = "page.html"
+path = "opinions/2025/2025-12-infra-responsibility-cognitive-warfare"
+aliases = ["/opinions/2025/2025-12-infra-responsibility-cognitive-warfare.html"]
++++
 
 # Cloudflare判決は何を武器化したのか
 ## ―― インフラ幇助責任・認知の自由・情報安全保障

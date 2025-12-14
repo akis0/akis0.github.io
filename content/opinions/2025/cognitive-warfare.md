@@ -1,3 +1,10 @@
++++
+title = "認知戦とは何か──durable disorder 時代の「頭の中の戦場」"
+date = 2025-12-05
+template = "page.html"
+path = "opinions/2025/cognitive-warfare"
+aliases = ["/opinions/2025/cognitive-warfare.html"]
++++
 # 認知戦とは何か
 ──durable disorder 時代の「頭の中の戦場」
 

@@ -1,0 +1,67 @@
+{% extends "base.html" %}
+{% block title %}
+  {% if page.title %}
+    {{ page.title }}
+  {% elif page.toc and page.toc | length > 0 %}
+    {% set heading = page.toc | first %}{{ heading.title }}
+  {% else %}
+    {{ page.path | default(value=config.title) }}
+  {% endif %}
+{% endblock title %}
+
+{% block content %}
+  {% if page.title %}
+    {% set display_title = page.title %}
+  {% elif page.toc and page.toc | length > 0 %}
+    {% set heading = page.toc | first %}
+    {% set display_title = heading.title %}
+  {% else %}
+    {% set display_title = page.path | default(value='') %}
+  {% endif %}
+  <article class="card">
+    <header>
+      <h1 style="margin: 0 0 6px;">{{ display_title }}</h1>
+      <div class="meta">
+        {% if page.date %}<time datetime="{{ page.date | date(format="%Y-%m-%d") }}">{{ page.date | date(format="%Y-%m-%d") }}</time>{% endif %}
+        {% if page.updated %}<span>更新: {{ page.updated | date(format="%Y-%m-%d") }}</span>{% endif %}
+        {% if page.reading_time %}<span>{{ page.reading_time }}分</span>{% endif %}
+      </div>
+      {% if page.description %}<p style="margin: 10px 0 0; color: var(--muted);">{{ page.description }}</p>{% endif %}
+    </header>
+
+    {% if page.toc and page.toc | length > 0 %}
+      <nav class="card" style="margin: 16px -10px 10px; padding: 12px 14px; background: #f1f5f9;">
+        <strong style="display: block; margin-bottom: 6px;">目次</strong>
+        <ul style="padding-left: 18px; margin: 0;">
+          {% for h1 in page.toc %}
+            <li>
+              <a href="#{{ h1.id }}">{{ h1.title }}</a>
+              {% if h1.children %}
+                <ul style="padding-left: 16px; margin: 4px 0 0;">
+                  {% for h2 in h1.children %}
+                    <li><a href="#{{ h2.id }}">{{ h2.title }}</a></li>
+                  {% endfor %}
+                </ul>
+              {% endif %}
+            </li>
+          {% endfor %}
+        </ul>
+      </nav>
+    {% endif %}
+
+    <div class="body">
+      {{ page.content | default(value="") | safe }}
+    </div>
+  </article>
+
+  {% if page.taxonomies is defined and page.taxonomies.tags %}
+    <div class="card" style="margin-top: 16px;">
+      <div class="meta">
+        <span>Tags:</span>
+        {% for tag in page.taxonomies.tags %}
+          <a href="{{ tag.permalink }}">{{ tag.name }}</a>
+        {% endfor %}
+      </div>
+    </div>
+  {% endif %}
+{% endblock content %}

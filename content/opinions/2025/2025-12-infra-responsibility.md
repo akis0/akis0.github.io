@@ -1,3 +1,10 @@
++++
+title = "Cloudflare判決をめぐる国内インフラ事業者の姿勢"
+date = 2025-12-05
+template = "page.html"
+path = "opinions/2025/2025-12-infra-responsibility"
+aliases = ["/opinions/2025/2025-12-infra-responsibility.html"]
++++
 
 # Cloudflare判決をめぐる国内インフラ事業者の姿勢
 # ― 中立性・通報対応・デジタル主権のリスク ―

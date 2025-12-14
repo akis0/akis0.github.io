@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+
+{% block title %}ページが見つかりません | {{ config.title | default(value='') }}{% endblock title %}
+
+{% block content %}
+  <section class="card">
+    <h1 style="margin-top: 0;">404 Not Found</h1>
+    <p>お探しのページは見つかりませんでした。</p>
+    <p><a href="/">トップページに戻る</a></p>
+  </section>
+{% endblock content %}

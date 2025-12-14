@@ -1,3 +1,10 @@
++++
+title = "認知の自由の外形的保障としての表現の自由と通信の自由"
+date = 2025-12-05
+template = "page.html"
+path = "opinions/2025/2025-12-cognitive-liberty-communication"
+aliases = ["/opinions/2025/2025-12-cognitive-liberty-communication.html"]
++++
 # 認知の自由の外形的保障としての表現の自由と通信の自由（2025-12）
 
 [初版：2025-12-05] (https://github.com/akis0/akis0.github.io/commit/fc3fa0781f3d2ed220c646bfda06e8b59ccf8f27)

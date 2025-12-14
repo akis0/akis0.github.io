@@ -1,0 +1,67 @@
+{% extends "base.html" %}
+
+{% block title %}
+  {% if section is defined and section.title %}
+    {{ section.title }} | {{ config.title | default(value='') }}
+  {% else %}
+    {{ config.title | default(value='ホーム') }}
+  {% endif %}
+{% endblock title %}
+
+{% block content %}
+  <section class="card" style="margin-bottom: 24px;">
+    {% if section is defined and section.title %}
+      <h1 style="margin: 0 0 10px;">{{ section.title }}</h1>
+    {% elif config.title %}
+      <h1 style="margin: 0 0 10px;">{{ config.title }}</h1>
+    {% endif %}
+    {% if section is defined and section.description %}
+      <p style="margin: 0 0 8px; color: var(--muted);">{{ section.description }}</p>
+    {% elif config.description %}
+      <p style="margin: 0 0 8px; color: var(--muted);">{{ config.description }}</p>
+    {% endif %}
+    {% if section is defined and section.content %}
+      <div class="body">{{ section.content | safe }}</div>
+    {% endif %}
+  </section>
+
+  {% if section is defined and section.subsections | length > 0 %}
+    <section class="card" style="margin-bottom: 24px;">
+      <h2 style="margin-top: 0;">セクション</h2>
+      <ul style="list-style: none; padding: 0; margin: 12px 0 0;">
+        {% for path in section.subsections %}
+          {% set subsection = get_section(path=path) %}
+          <li style="padding: 10px 0; border-bottom: 1px solid var(--border);">
+            <div style="display: flex; align-items: baseline; justify-content: space-between; gap: 12px; flex-wrap: wrap;">
+              <a href="{{ subsection.permalink }}" style="font-weight: 600;">{{ subsection.title | default(value=subsection.path) }}</a>
+              {% if subsection.pages %}<span class="meta">{{ subsection.pages | length }}本の記事</span>{% endif %}
+            </div>
+            {% if subsection.description %}
+              <p style="margin: 6px 0 0; color: var(--muted);">{{ subsection.description }}</p>
+            {% endif %}
+          </li>
+        {% endfor %}
+      </ul>
+    </section>
+  {% endif %}
+
+  {% if section is defined and section.pages | length > 0 %}
+    <section class="card">
+      <h2 style="margin-top: 0;">最近の投稿</h2>
+      <ul style="list-style: none; padding: 0; margin: 12px 0 0;">
+        {% for page in section.pages | slice(end=8) %}
+          <li style="padding: 12px 0; border-bottom: 1px solid var(--border);">
+            <a href="{{ page.permalink }}" style="font-weight: 600;">{{ page.title | default(value=page.path) }}</a>
+            <div class="meta">
+              {% if page.date %}<time datetime="{{ page.date | date(format="%Y-%m-%d") }}">{{ page.date | date(format="%Y-%m-%d") }}</time>{% endif %}
+              {% if page.reading_time %}<span>{{ page.reading_time }}分で読めます</span>{% endif %}
+            </div>
+            {% if page.summary %}
+              <p style="margin: 8px 0 0; color: var(--muted);">{{ page.summary | safe }}</p>
+            {% endif %}
+          </li>
+        {% endfor %}
+      </ul>
+    </section>
+  {% endif %}
+{% endblock content %}

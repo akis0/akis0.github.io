@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="{{ page.lang | default(value=config.default_language) | default(value='ja') }}">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>{% block title %}{{ page.title | default(value=section.title) | default(value=config.title) | default(value='') }}{% endblock title %}</title>
+  {% if page.description %}
+    <meta name="description" content="{{ page.description }}" />
+  {% elif section is defined and section.description %}
+    <meta name="description" content="{{ section.description }}" />
+  {% endif %}
+  {% block head_extra %}{% endblock head_extra %}
+  <style>
+    :root {
+      --bg: #f8fafc;
+      --card: #ffffff;
+      --text: #0f172a;
+      --muted: #475569;
+      --accent: #0f766e;
+      --border: #e2e8f0;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: "Noto Sans JP", "Hiragino Sans", "Segoe UI", system-ui, -apple-system, sans-serif;
+      line-height: 1.7;
+      color: var(--text);
+      background: var(--bg);
+    }
+    a {
+      color: var(--accent);
+      text-decoration: none;
+    }
+    a:hover { text-decoration: underline; }
+    header {
+      border-bottom: 1px solid var(--border);
+      background: rgba(255, 255, 255, 0.85);
+      backdrop-filter: blur(6px);
+    }
+    .shell {
+      max-width: 960px;
+      margin: 0 auto;
+      padding: 20px 16px 36px;
+    }
+    .brand {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 12px;
+    }
+    .site-title {
+      margin: 0;
+      font-size: 1.4rem;
+      font-weight: 700;
+      letter-spacing: 0.01em;
+    }
+    .site-title a { color: inherit; }
+    .tagline {
+      margin: 4px 0 0;
+      color: var(--muted);
+      font-size: 0.95rem;
+    }
+    nav {
+      display: flex;
+      align-items: center;
+      gap: 14px;
+      padding: 12px 0 6px;
+      font-size: 0.95rem;
+      flex-wrap: wrap;
+    }
+    main {
+      max-width: 960px;
+      margin: 0 auto;
+      padding: 20px 16px 56px;
+    }
+    footer {
+      border-top: 1px solid var(--border);
+      padding: 18px 16px 32px;
+      color: var(--muted);
+      font-size: 0.9rem;
+      background: #fff;
+      margin-top: 32px;
+    }
+    footer .shell { padding-bottom: 0; }
+    .card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 22px;
+      box-shadow: 0 8px 24px rgba(15, 23, 42, 0.04);
+    }
+    .meta {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      color: var(--muted);
+      font-size: 0.92rem;
+      flex-wrap: wrap;
+      margin: 8px 0 0;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="shell">
+      <div class="brand">
+        <div>
+          <p class="site-title"><a href="/">{{ config.title | default(value='ホーム') }}</a></p>
+          {% if config.description %}<p class="tagline">{{ config.description }}</p>{% endif %}
+        </div>
+      </div>
+      <nav>
+        <a href="/">Home</a>
+        {% if config.extra.nav is defined and config.extra.nav %}
+          {% for item in config.extra.nav %}
+            {% set label = item.name | default(value=item.label) | default(value=item.title) | default(value=item.url) %}
+          {% if item.url %}
+            <a href="{{ item.url }}">{{ label }}</a>
+          {% elif item.path %}
+            <a href="{{ get_url(path=item.path) }}">{{ label }}</a>
+          {% endif %}
+          {% endfor %}
+        {% endif %}
+      </nav>
+    </div>
+  </header>
+  <main>
+    {% block content %}{% endblock content %}
+  </main>
+  <footer>
+    <div class="shell">
+      <div class="meta">
+        <span>© {{ config.title | default(value='サイト') }} {{ now() | date(format="%Y") }}</span>
+        {% if config.base_url %}<span>{{ config.base_url }}</span>{% endif %}
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
