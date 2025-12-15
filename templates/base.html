@@ -9,6 +9,9 @@
   {% elif section is defined and section.description %}
     <meta name="description" content="{{ section.description }}" />
   {% endif %}
+  {% if config.extra.google_site_verification %}
+    <meta name="google-site-verification" content="{{ config.extra.google_site_verification }}" />
+  {% endif %}
   {% block head_extra %}{% endblock head_extra %}
   <style>
     :root {
@@ -111,7 +114,8 @@
         </div>
       </div>
       <nav>
-        <a href="/">Home</a>
+        <a href="/">Home()</a>
+        <a href="/opinions/">Opinions</a>
         {% if config.extra.nav is defined and config.extra.nav %}
           {% for item in config.extra.nav %}
             {% set label = item.name | default(value=item.label) | default(value=item.title) | default(value=item.url) %}
