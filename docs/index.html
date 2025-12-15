@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Redirecting...</title>
+  <meta http-equiv="refresh" content="1;url=https://akis0-github-io.pages.dev/">
+  <style>
+    :root {
+      --bg: #0f172a;
+      --card: #ffffff;
+      --text: #0f172a;
+      --muted: #475569;
+      --accent: #0ea5e9;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      min-height: 100vh;
+      display: grid;
+      place-items: center;
+      background: radial-gradient(circle at 20% 20%, rgba(14, 165, 233, 0.2), transparent 30%),
+                  radial-gradient(circle at 80% 0%, rgba(52, 211, 153, 0.16), transparent 30%),
+                  var(--bg);
+      font-family: "Inter", "Noto Sans JP", system-ui, -apple-system, sans-serif;
+      color: var(--text);
+    }
+    .card {
+      background: var(--card);
+      padding: 26px 28px;
+      border-radius: 14px;
+      box-shadow: 0 16px 40px rgba(15, 23, 42, 0.18);
+      max-width: 520px;
+      width: calc(100% - 32px);
+      text-align: center;
+      border: 1px solid rgba(15, 23, 42, 0.06);
+    }
+    h1 {
+      margin: 0 0 10px;
+      font-size: 1.5rem;
+      letter-spacing: 0.01em;
+    }
+    p {
+      margin: 6px 0 16px;
+      color: var(--muted);
+      line-height: 1.6;
+    }
+    a.button {
+      display: inline-block;
+      padding: 10px 18px;
+      border-radius: 10px;
+      background: var(--accent);
+      color: #f8fafc;
+      font-weight: 600;
+      text-decoration: none;
+      box-shadow: 0 6px 18px rgba(14, 165, 233, 0.35);
+      transition: transform 120ms ease, box-shadow 120ms ease;
+    }
+    a.button:hover {
+      transform: translateY(-1px);
+      box-shadow: 0 10px 24px rgba(14, 165, 233, 0.45);
+    }
+    a.button:active { transform: translateY(0); }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h1>新サイトへ移動します</h1>
+    <p>数秒後に自動的に新しいサイトへリダイレクトします。</p>
+    <a class="button" href="https://akis0-github-io.pages.dev/">新サイトを見る</a>
+  </div>
+</body>
+</html>
