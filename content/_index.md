@@ -10,7 +10,7 @@ IT技術者です。会社での肩書はDevOps Engineerで、運用/テスト�
 
 I'm an IT Engineer. DevOps, SRE.
 
-最近は資料管理のためのWebサービス運営を目指して開発しています。
+最近は外部環境に迅速に対応するために法務や監査をコードに落とし込む取り組みについて関心を持っています。
 
 金融、ゲーム理論、サイバーセキュリティ、安全保障に興味があります。
 
@@ -32,10 +32,11 @@ I’m interested in Finance, Game Theory, and Cyber Security
 ## Publication
 
 - システムからの通知に「人間味のある言葉」は必要か? 2023年06月30日 — [ASCII × FIXER cloud.config Tech Blog](https://ascii.jp/elem/000/004/142/4142747/)
+(注:退職済み)
 
 ## 連絡先,SNSなど
 
-- Email isoiso0316aaa[a/t]gmail[dot]com
+- Email hi[a/t]iak[dot]jp
 - [LinkedIn](https://www.linkedin.com/in/akihiro-isotani-436771209)
 - [Facebook](https://www.facebook.com/akihiro.isotani)
 - [Instagram](https://instagram.com/akinyate)
