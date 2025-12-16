@@ -13,4 +13,5 @@ title: 意見・主張ログ
 - [認知の自由の外形的保障としての表現の自由と通信の自由(2025-12)](2025/2025-12-cognitive-liberty-communication.html)
 - [認知戦とは何か──durable disorder 時代の「頭の中の戦場」(2025-12)](2025/cognitive-warfare.html)
 - [インフラ事業者責任と認知戦の視点（2025-12）](2025/2025-12-infra-responsibility-cognitive-warfare.html)
+- [出版社のプレスリリースのレトリックの解体(2025-12)](2025/2025-12-publisher-rhetoric.html)
 - [認知の自由を人権外交に(まだ)](2025/2025-12-cognitive-liberty-diplomacy.html)
