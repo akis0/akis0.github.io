@@ -1,6 +1,6 @@
 +++
 title = "Cloudflare判決とインフラ事業者責任の射程"
-date = 2025-12-05
+date = 2025-12-16
 template = "page.html"
 path = "opinions/2025/2025-12-cloudflare-overview"
 aliases = ["/opinions/2025/2025-12-cloudflare-overview.html"]
@@ -9,6 +9,7 @@ aliases = ["/opinions/2025/2025-12-cloudflare-overview.html"]
 # Cloudflare判決とインフラ事業者責任の射程
 # ― 事件概要と今後の論点の整理 ―
 [初版：2025-12-05] (https://github.com/akis0/akis0.github.io/commit/5749f53ef7147bc9f3785747aa8530e916343b52)
+[2版：2025-12-16] (https://github.com/akis0/akis0.github.io/commit/64e74f78c9a5650cc809bfe3ee19a8fb16a68bf9)
 
 ## 事件概要
 
