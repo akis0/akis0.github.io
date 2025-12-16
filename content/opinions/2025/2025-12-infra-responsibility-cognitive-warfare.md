@@ -1,6 +1,6 @@
 +++
 title = "Cloudflare判決は何を武器化したのか――インフラ幇助責任・認知の自由・情報安全保障"
-date = 2025-12-06
+date = 2025-12-16
 template = "page.html"
 path = "opinions/2025/2025-12-infra-responsibility-cognitive-warfare"
 aliases = ["/opinions/2025/2025-12-infra-responsibility-cognitive-warfare.html"]
@@ -12,6 +12,7 @@ aliases = ["/opinions/2025/2025-12-infra-responsibility-cognitive-warfare.html"]
 [初版 : 2025-12-06](https://github.com/akis0/akis0.github.io/commit/2597b4f548ac1f022a701156526552fc9c19510d)
 [2版 : 2025-12-06](https://github.com/akis0/akis0.github.io/commit/ac0c907f30c120eb90d21e80179f4e833b1a03d4)
 [2.0.1版 : 2025-12-06](https://github.com/akis0/akis0.github.io/commit/b8071e38fdcd0cb7d238221d192c6056d7f24246)
+[2.0.2版 : 2025-12-16](https://github.com/akis0/akis0.github.io/commit/b5fbb9ae99f443480ea4499524c3c5813b2669ff)
 
 
 ## 序論：Cloudflare判決は何の事件なのか
