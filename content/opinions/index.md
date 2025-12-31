@@ -14,4 +14,5 @@ title: 意見・主張ログ
 - [認知戦とは何か──durable disorder 時代の「頭の中の戦場」(2025-12)](2025/cognitive-warfare.html)
 - [インフラ事業者責任と認知戦の視点（2025-12）](2025/2025-12-infra-responsibility-cognitive-warfare.html)
 - [出版社のプレスリリースのレトリックの解体(2025-12)](2025/2025-12-publisher-rhetoric.html)
+- [脅威モデルと施策体系の断線：サイバーセキュリティ戦略2025は何を示したか(2026-01)](2026/2026-01-gov-cybersecurity-strategy.html)
 - [認知の自由を人権外交に(まだ)](2025/2025-12-cognitive-liberty-diplomacy.html)
