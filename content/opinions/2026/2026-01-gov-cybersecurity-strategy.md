@@ -6,7 +6,7 @@ path = "2026/2026-01-gov-cybersecurity-strategy"
 aliases = ["/opinions/2026/2026-01-gov-cybersecurity-strategy.html"]
 +++
 
-[v1:2026-01-01](https://github.com/akis0/akis0.github.io)
+[v1:2026-01-01](https://github.com/akis0/akis0.github.io/commit/edd50cba6db1432003fd9a85db30afcfda125e6f)
 
 ## 内外への意思表明として読む
 
