@@ -6,7 +6,7 @@ path = "2026/2026-01-cloudflare-dmca-notice"
 aliases = ["/opinions/2026/2026-01-cloudflare-dmca-notice.html"]
 +++
 
-[v1:2026-01-](github)
+[v1: 2026-01-07](https://github.com/akis0/akis0.github.io/commit/d6f44a7b53e7af2ba3a7fea3107515c481994ef9)
 
 
 ## DMCAは「制度」ではなく「到達した事実」として登場する
