@@ -15,4 +15,5 @@ title: 意見・主張ログ
 - [インフラ事業者責任と認知戦の視点（2025-12）](2025/2025-12-infra-responsibility-cognitive-warfare.html)
 - [出版社のプレスリリースのレトリックの解体(2025-12)](2025/2025-12-publisher-rhetoric.html)
 - [脅威モデルと施策体系の断線：サイバーセキュリティ戦略2025は何を示したか(2026-01)](2026/2026-01-gov-cybersecurity-strategy.html)
+- [通知が制度を離れ、義務を生んだとき――欠陥DMCAと認識可能性の構造――(2026-01)](2026/2026-01-cloudflare-dmca-notice.html)
 - [認知の自由を人権外交に(まだ)](2025/2025-12-cognitive-liberty-diplomacy.html)
