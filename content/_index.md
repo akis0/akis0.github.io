@@ -39,7 +39,6 @@ I’m interested in Finance, Game Theory, and Cyber Security
 - Email hi[a/t]iak[dot]jp
 - [LinkedIn](https://www.linkedin.com/in/akihiro-isotani-436771209)
 - [Facebook](https://www.facebook.com/akihiro.isotani)
-- [Instagram](https://instagram.com/akinyate)
 - [GitHub](https://github.com/akis0)
 
 ![profile pic](profile.jpg)
