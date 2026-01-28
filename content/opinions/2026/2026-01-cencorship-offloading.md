@@ -9,7 +9,7 @@ aliases = ["/opinions/2026/2026-01-censorship-offloading.html"]
 # 行政が判断しないなら、誰が判断するか。
 ―情プラ法の理念が誘導する検閲外注の構造―
 
-[v1.0.0: 2026-01-28](https://github.com/)
+[v1.0.0: 2026-01-28](https://github.com/akis0/akis0.github.io/commit/1e4163ae3d8e0d60f687f4735d964b94d6d3ce4f)
 
 ## 行政に表現内容を判断させない努力が齎したもの
 
