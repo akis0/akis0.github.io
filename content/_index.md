@@ -56,4 +56,4 @@ I’m interested in finance, game theory, cognitive liberty, and intelligence—
 - [Facebook](https://www.facebook.com/akihiro.isotani)
 - [GitHub](https://github.com/akis0)
 
-![profile pic](profile.jpg)
+![profile pic](profile.png)
