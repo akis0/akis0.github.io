@@ -4,6 +4,7 @@ template = "index.html"
 +++
 
 ## 磯谷 彰宏
+
 ## Isotani Akihiro
 
 レトリック敏感系IT技術者。Risk Management / Security / Observability / GRC。
@@ -35,9 +36,10 @@ I’m interested in finance, game theory, cognitive liberty, and intelligence—
 馬で速歩できます。
 
 一種外務員試験に合格しています。
-## [意見・主張ログ](/opinions/)
-## [技術関係記事](/tech/)
 
+## [意見・主張ログ](/opinions/)
+
+## [技術関係記事](/tech/)
 
 ## 略歴
 

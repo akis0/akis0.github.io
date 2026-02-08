@@ -6,6 +6,7 @@ path = "opinions/2025/cognitive-warfare"
 aliases = ["/opinions/2025/cognitive-warfare.html"]
 +++
 # 認知戦とは何か
+
 ──durable disorder 時代の「頭の中の戦場」
 
 [初版: 2025-12-05](https://github.com/akis0/akis0.github.io/commit/ea92bb31fa0facf59f5f36ac203fa72158e32d8a)
@@ -217,7 +218,6 @@ lawfare とは、雑にいえば
 クラウド事業者・プラットフォーム運営者を
 安全保障・認知戦の文脈に引きずり出すことである。
 
-
 ---
 
 ## 8. 次に続く話
@@ -232,11 +232,10 @@ lawfare とは、雑にいえば
 本サイトではこの枠組みを前提として、
 
 - 日本の安全保障政策
-- 国内クラウド・インフラ事業者　
+- 国内クラウド・インフラ事業者
 - プラットフォーム規制と法制度
 - そして lawfare との接続
 
 を、もう少し血生臭い実例を交えて眺めていく。
 
   [Cloudflare判決をめぐる国内インフラ事業者の姿勢](../2025-12-infra-responsibility)
-
