@@ -12,6 +12,7 @@ aliases = ["/opinions/2025/cognitive-warfare.html"]
 [初版: 2025-12-05](https://github.com/akis0/akis0.github.io/commit/ea92bb31fa0facf59f5f36ac203fa72158e32d8a)
 [第2版: 2025-12-09](https://github.com/akis0/akis0.github.io/commit/6709c78e5252eae7431e41071470e150389d869c)
 [第3版: 2025-12-16](https://github.com/akis0/akis0.github.io/commit/64da4cd2e002b4a65b68aa2f5771b52b9b59bab7)
+[第4版: 2026-02-08](https://github.com/akis0/akis0.github.io/commit/79575bb38806a46e50121560e17507780fd5b149) (誤字訂正)
 
 このページは、佐藤雅俊・上田篤盛『情報戦、心理戦、そして認知戦』をベースにしつつ、
 Sean McFate の durable disorder 論と lawfare（ロー・フェア）の観点を混ぜて、
