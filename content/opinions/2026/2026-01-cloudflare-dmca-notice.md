@@ -7,7 +7,7 @@ aliases = ["/opinions/2026/2026-01-cloudflare-dmca-notice.html"]
 +++
 
 [v1: 2026-01-07](https://github.com/akis0/akis0.github.io/commit/d6f44a7b53e7af2ba3a7fea3107515c481994ef9)
-[v2: 2026-01-07](https://github.com/akis0/akis0.github.io)
+[v2: 2026-02-11](https://github.com/akis0/akis0.github.io/commit/7894d9cee1225989f3fb52e278e4754c0918b8b0)
 
 ## DMCAは「制度」ではなく「到達した事実」として登場する
 
