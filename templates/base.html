@@ -126,6 +126,17 @@
           {% endif %}
           {% endfor %}
         {% endif %}
+        <a href="/tech/">Tech</a>
+        {% if config.extra.nav is defined and config.extra.nav %}
+          {% for item in config.extra.nav %}
+            {% set label = item.name | default(value=item.label) | default(value=item.title) | default(value=item.url) %}
+          {% if item.url %}
+            <a href="{{ item.url }}">{{ label }}</a>
+          {% elif item.path %}
+            <a href="{{ get_url(path=item.path) }}">{{ label }}</a>
+          {% endif %}
+          {% endfor %}
+        {% endif %}
       </nav>
     </div>
   </header>
