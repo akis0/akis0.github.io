@@ -7,7 +7,7 @@ path = "2026/2026-03-secdays-zt.md"
 aliases = ["/opinions/2026/2026-03-26-secdays-zt.html"]
 +++
 
-[v1:2026-03-26](https://github.com/akis0/akis0.github.io/)
+[v1:2026-03-26](https://github.com/akis0/akis0.github.io/commit/cce633d32515bb1238038ebf314fd1ed3ae53380)
 
 ## ゼロトラストと言えばウケると思ってる?
  Security Days 2026に参加した。サイバーセキュリティ系のビジネスカンファレンスに参加したのは初めてである。
