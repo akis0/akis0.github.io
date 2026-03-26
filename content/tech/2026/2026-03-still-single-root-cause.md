@@ -9,6 +9,7 @@ aliases = ["/tech/2026/2026-03-still-single-root-cause.html"]
 
 # Root Cause という名の議論停止
 
+[v1: 2026-03-15](https://github.com/akis0/akis0.github.io/commit/66e0344433239d9c037f8737ef340097cb478d5d)
 
 ## 障害分析の失敗は、組織の認識論の失敗である
 
