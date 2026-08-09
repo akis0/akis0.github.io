@@ -6,9 +6,9 @@ date = 2026-08-09
 
 template = "page.html"
 
-path = "tech/2026/requirements-tragedy/chapter2.html"
+path = "tech/2026/requirements-tragedy/chapter2"
 
-aliases = ["tech/2026/requirements-tragedy/chapter2.html"]
+aliases = ["/tech/2026/requirements-tragedy/chapter2.html"]
 
 +++
 
@@ -114,6 +114,6 @@ ITシステムの要求文は、しばしば「通知できる」「検索でき
 [https://www.ipa.go.jp/archive/files/000057669.pdf](https://www.ipa.go.jp/archive/files/000057669.pdf)<br>
 
 
-[章立てへ](../requirements-tragedy/)<br>
-[戻る：第1章　本書の理論](../requirements-tragedy/chapter1.html)<br>
-[次へ：第3章　局所合理性はいかにして量的分析を弱体化させるか](../requirements-tragedy/chapter3.html)<br>
+[章立てへ](../)<br>
+[戻る：第1章　本書の理論](../chapter1/)<br>
+[次へ：第3章　局所合理性はいかにして量的分析を弱体化させるか](../chapter3/)<br>

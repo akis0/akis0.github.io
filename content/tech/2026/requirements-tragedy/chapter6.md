@@ -6,9 +6,9 @@ date = 2026-08-09
 
 template = "page.html"
 
-path = "tech/2026/requirements-tragedy/chapter6.html"
+path = "tech/2026/requirements-tragedy/chapter6"
 
-aliases = ["tech/2026/requirements-tragedy/chapter6.html"]
+aliases = ["/tech/2026/requirements-tragedy/chapter6.html"]
 
 +++
 
@@ -127,6 +127,6 @@ aliases = ["tech/2026/requirements-tragedy/chapter6.html"]
 
 
 
-[章立てへ](../requirements-tragedy/)<br>
-[戻る：第5章　運用は最後に罰を受ける](../requirements-tragedy/chapter5.html)<br>
-[次へ：第7章　悲劇の具体例](../requirements-tragedy/chapter7.html)<br>
+[章立てへ](../)<br>
+[戻る：第5章　運用は最後に罰を受ける](../chapter5/)<br>
+[次へ：第7章　悲劇の具体例](../chapter7/)<br>

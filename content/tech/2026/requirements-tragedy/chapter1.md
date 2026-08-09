@@ -2,8 +2,8 @@
 title = "第1章 本書の理論"
 date = 2026-08-09
 template = "page.html"
-path = "tech/2026/requirements-tragedy/chapter1.html"
-aliases = ["tech/2026/requirements-tragedy/chapter1.html"]
+path = "tech/2026/requirements-tragedy/chapter1"
+aliases = ["/tech/2026/requirements-tragedy/chapter1.html"]
 +++
 
 > 全体は部分の総和以上のものである <br>
@@ -91,6 +91,6 @@ aliases = ["tech/2026/requirements-tragedy/chapter1.html"]
 [https://www.ipa.go.jp/archive/files/000057669.pdf](https://www.ipa.go.jp/archive/files/000057669.pdf)
 
 
-[章立てへ](../requirements-tragedy/)<br>
-[戻る：第0章　先行研究と本書の位置](../requirements-tragedy/chapter0.html)<br>
-[次へ：第2章　存在主張と能力保証](../requirements-tragedy/chapter2.html)<br>
+[章立てへ](../)<br>
+[戻る：第0章　先行研究と本書の位置](../chapter0/)<br>
+[次へ：第2章　存在主張と能力保証](../chapter2/)<br>

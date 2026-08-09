@@ -6,9 +6,9 @@ date = 2026-08-09
 
 template = "page.html"
 
-path = "tech/2026/requirements-tragedy/final.html"
+path = "tech/2026/requirements-tragedy/final"
 
-aliases = ["tech/2026/requirements-tragedy/final.html"]
+aliases = ["/tech/2026/requirements-tragedy/final.html"]
 
 +++
 
@@ -48,6 +48,6 @@ aliases = ["tech/2026/requirements-tragedy/final.html"]
 
 
 
-[章立てへ](../requirements-tragedy/)<br>
-[戻る：第8章　悲劇を和らげるもの](../requirements-tragedy/chapter8.html)<br>
-[次へ：日本語版読者への後書き](../requirements-tragedy/afterwordjp.html)<br>
+[章立てへ](../)<br>
+[戻る：第8章　悲劇を和らげるもの](../chapter8/)<br>
+[次へ：日本語版読者への後書き](../afterwordjp/)<br>

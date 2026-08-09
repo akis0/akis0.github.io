@@ -6,9 +6,9 @@ date = 2026-08-09
 
 template = "page.html"
 
-path = "tech/2026/requirements-tragedy/chapter3.html"
+path = "tech/2026/requirements-tragedy/chapter3"
 
-aliases = ["tech/2026/requirements-tragedy/chapter3.html"]
+aliases = ["/tech/2026/requirements-tragedy/chapter3.html"]
 
 +++
 
@@ -138,6 +138,6 @@ G12 の対策がこの読解を裏づける。IPA は、対策として キャ�
 
 [https://www.ipa.go.jp/archive/files/000057669.pdf](https://www.ipa.go.jp/archive/files/000057669.pdf)<br>
 
-[章立てへ](../requirements-tragedy/)<br>
-[戻る：第2章　存在主張と能力保証](../requirements-tragedy/chapter2.html)<br>
-[次へ：第4章　監査可能性の勝利](../requirements-tragedy/chapter4.html)<br>
+[章立てへ](../)<br>
+[戻る：第2章　存在主張と能力保証](../chapter2/)<br>
+[次へ：第4章　監査可能性の勝利](../chapter4/)<br>

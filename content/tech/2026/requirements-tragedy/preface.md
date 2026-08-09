@@ -2,8 +2,8 @@
 title = "量的分析なき仕様はいかにして失敗を必然化するか"
 date = 2026-08-09
 template = "page.html"
-path = "tech/2026/requirements-tragedy/preface.html"
-aliases = ["tech/2026/requirements-tragedy/preface.html"]
+path = "tech/2026/requirements-tragedy/preface"
+aliases = ["/tech/2026/requirements-tragedy/preface.html"]
 +++
 
 # 前書き
@@ -18,5 +18,5 @@ aliases = ["tech/2026/requirements-tragedy/preface.html"]
 　本書は、関係者がある程度有能で、各自の持ち場で合理的に振る舞い、露骨な悪意は持たず、むしろ誠実で倫理的であることを仮定してもなお、量的分析の欠落や不足が高い確率で再生産されることを示す。ここで問われるべきは、誰が愚かであったかではない。いかなる制度的条件のもとで、愚かな帰結が、あたかも必然であるかのように繰り返し生じるのか、である。
 　
 
-[章立てへ](../requirements-tragedy/)<br>
-[次へ：第0章　先行研究と本書の位置](../requirements-tragedy/chapter0.html)<br>
+[章立てへ](../)<br>
+[次へ：第0章　先行研究と本書の位置](../chapter0/)<br>

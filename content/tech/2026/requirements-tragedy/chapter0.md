@@ -2,8 +2,8 @@
 title = "0章 先行研究と本書の位置"
 date = 2026-08-09
 template = "page.html"
-path = "tech/2026/requirements-tragedy/chapter0.html"
-aliases = ["tech/2026/requirements-tragedy/chapter0.html"]
+path = "tech/2026/requirements-tragedy/chapter0"
+aliases = ["/tech/2026/requirements-tragedy/chapter0.html"]
 +++
 
 > 私がより遠くまで見渡せたとすれば、それは巨人の肩の上に立っていたからである。<br>
@@ -64,6 +64,6 @@ aliases = ["tech/2026/requirements-tragedy/chapter0.html"]
 
 なお、本書は、量的分析の不足を大規模実証によって測定するものではない。むしろ、本書の主張は、量的分析が後景化しやすい制度的機構を記述することにある。ただし、公開仕様の予備的観察からは、量的記述が完全に欠落しているというより、性能節、別紙、機器仕様、運用要件などに局在し、自然言語で記述された機能要求本文へは十分に浸透していない傾向が見られる。すなわち問題は、単に「量がない」ことではない。より精確には、量は存在しても、能力保証の中心ではなく、文書構造の周辺に配置されやすいのである。この「量の局在」こそ、本書が後続の章で検討する悲劇の、より具体的な姿である。
 
-[章立てへ](../requirements-tragedy/)<br>
-[戻る：前書き　量的分析なき仕様はいかにして失敗を必然化するか](../requirements-tragedy/preface.html)<br>
-[次へ：第1章　本書の理論](../requirements-tragedy/chapter1.html)<br>
+[章立てへ](../)<br>
+[戻る：前書き　量的分析なき仕様はいかにして失敗を必然化するか](../preface/)<br>
+[次へ：第1章　本書の理論](../chapter1/)<br>

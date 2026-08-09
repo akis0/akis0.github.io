@@ -6,9 +6,9 @@ date = 2026-08-09
 
 template = "page.html"
 
-path = "tech/2026/requirements-tragedy/chapter8.html"
+path = "tech/2026/requirements-tragedy/chapter8"
 
-aliases = ["tech/2026/requirements-tragedy/chapter8.html"]
+aliases = ["/tech/2026/requirements-tragedy/chapter8.html"]
 
 +++
 
@@ -93,6 +93,6 @@ aliases = ["tech/2026/requirements-tragedy/chapter8.html"]
 [https://www.ipa.go.jp/archive/files/000057669.pdf](https://www.ipa.go.jp/archive/files/000057669.pdf)<br>
 
 
-[章立てへ](../requirements-tragedy/)<br>
-[戻る：第7章　悲劇の具体例](../requirements-tragedy/chapter7.html)<br>
-[次へ：終章　量なき要求は、要求ではない](../requirements-tragedy/final.html)<br>
+[章立てへ](../)<br>
+[戻る：第7章　悲劇の具体例](../chapter7/)<br>
+[次へ：終章　量なき要求は、要求ではない](../final/)<br>

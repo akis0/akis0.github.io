@@ -2,8 +2,8 @@
 title = "ラテン語版読者への後書き"
 date = 2026-08-09
 template = "page.html"
-path = "tech/2026/requirements-tragedy/afterwordlatin.html"
-aliases = ["tech/2026/requirements-tragedy/afterwordlatin.html"]
+path = "tech/2026/requirements-tragedy/afterwordlatin"
+aliases = ["/tech/2026/requirements-tragedy/afterwordlatin.html"]
 +++
 
 ## ラテン語版読者への後書き
@@ -18,5 +18,5 @@ Tempore quo hoc postscriptum scribitur, editio Latina huius libri nondum exstat.
 
 
 
-[章立てへ](../requirements-tragedy/)<br>
-[戻る：日本語版読者への後書き](../requirements-tragedy/afterwordjp.html)<br>
+[章立てへ](../)<br>
+[戻る：日本語版読者への後書き](../afterwordjp/)<br>

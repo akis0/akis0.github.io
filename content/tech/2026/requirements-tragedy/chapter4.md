@@ -6,9 +6,9 @@ date = 2026-08-09
 
 template = "page.html"
 
-path = "tech/2026/requirements-tragedy/chapter4.html"
+path = "tech/2026/requirements-tragedy/chapter4"
 
-aliases = ["tech/2026/requirements-tragedy/chapter4.html"]
+aliases = ["/tech/2026/requirements-tragedy/chapter4.html"]
 
 +++
 
@@ -84,6 +84,6 @@ G12 で IPA が対策として挙げるのは、キャパシティ管理の責�
 
 [https://www.ipa.go.jp/archive/files/000057669.pdf](https://www.ipa.go.jp/archive/files/000057669.pdf)<br>
 
-[章立てへ](../requirements-tragedy/)<br>
-[戻る：第3章　局所合理性はいかにして量的分析を弱体化させるか](../requirements-tragedy/chapter3.html)<br>
-[次へ：第5章　運用は最後に罰を受ける](../requirements-tragedy/chapter5.html)<br>
+[章立てへ](../)<br>
+[戻る：第3章　局所合理性はいかにして量的分析を弱体化させるか](../chapter3/)<br>
+[次へ：第5章　運用は最後に罰を受ける](../chapter5/)<br>

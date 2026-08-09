@@ -2,8 +2,8 @@
 title = "日本語版読者への後書き"
 date = 2026-08-09
 template = "page.html"
-path = "tech/2026/requirements-tragedy/afterwordjp.html"
-aliases = ["tech/2026/requirements-tragedy/afterwordjp.html"]
+path = "tech/2026/requirements-tragedy/afterwordjp"
+aliases = ["/tech/2026/requirements-tragedy/afterwordjp.html"]
 +++
 
 　本来、この位置に現れるべきなのは筆者ではない。少なくとも通例としてはそうである。こうした文章は、ふつう、本文から一歩距離を置いた立場にある誰かによって書かれる。監訳者であるとか、解説者であるとか、要するに本文そのものの責任は負わないが、本文の読まれ方について何事かを述べることは許されている人物である。したがって、筆者としてこの位置に出てくることには、やはりどこか収まりの悪さがある。もっとも、本書が扱っている題材を思えば、その種の収まりの悪さもまた、本書にふさわしいと言えなくもない。整っているはずの文書の内部で、じつは何か大事なものが抜け落ちている。そうした違和感を問題にする本の末尾に、少し場違いな筆者の声が現れることは、必ずしも不釣り合いではないだろう。<br>
@@ -28,6 +28,6 @@ aliases = ["tech/2026/requirements-tragedy/afterwordjp.html"]
 
 
 
-[章立てへ](../requirements-tragedy/)<br>
-[戻る：終章　量なき要求は、要求ではない](../requirements-tragedy/final.html)<br>
-[次へ：ラテン語版読者への後書き](../requirements-tragedy/afterwordlatin.html)<br>
+[章立てへ](../)<br>
+[戻る：終章　量なき要求は、要求ではない](../final/)<br>
+[次へ：ラテン語版読者への後書き](../afterwordlatin/)<br>

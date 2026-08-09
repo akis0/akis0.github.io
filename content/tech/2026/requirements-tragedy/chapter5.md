@@ -6,9 +6,9 @@ date = 2026-08-09
 
 template = "page.html"
 
-path = "tech/2026/requirements-tragedy/chapter5.html"
+path = "tech/2026/requirements-tragedy/chapter5"
 
-aliases = ["tech/2026/requirements-tragedy/chapter5.html"]
+aliases = ["/tech/2026/requirements-tragedy/chapter5.html"]
 
 +++
 
@@ -98,6 +98,6 @@ G12 が示すのは、量の問題が要求分析で十分に定量化されず�
 
 [https://www.ipa.go.jp/archive/files/000057669.pdf](https://www.ipa.go.jp/archive/files/000057669.pdf)<br>
 
-[章立てへ](../requirements-tragedy/)<br>
-[戻る：第4章　監査可能性の勝利](../requirements-tragedy/chapter4.html)<br>
-[次へ：第6章　悲劇の具体例](../requirements-tragedy/chapter6.html)<br>
+[章立てへ](../)<br>
+[戻る：第4章　監査可能性の勝利](../chapter4/)<br>
+[次へ：第6章　悲劇の具体例](../chapter6/)<br>
