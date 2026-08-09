@@ -13,7 +13,7 @@ title: 要求分析の悲劇
 [第4章　監査可能性の勝利](chapter4/)<br>
 [第5章　運用は最後に罰を受ける](chapter5/)<br>
 [第6章　悲劇の具体例](chapter6/)<br>
-[第7章　悲劇の具体例](chapter7/)<br>
+[第7章　ITシステム要求分析の悲劇](chapter7/)<br>
 [第8章　悲劇を和らげるもの](chapter8/)<br>
 [終章　量なき要求は、要求ではない](final/)<br>
 [日本語版読者への後書き](afterwordjp/)<br>

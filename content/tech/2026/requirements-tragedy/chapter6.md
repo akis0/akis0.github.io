@@ -129,4 +129,4 @@ aliases = ["/tech/2026/requirements-tragedy/chapter6.html"]
 
 [章立てへ](../)<br>
 [戻る：第5章　運用は最後に罰を受ける](../chapter5/)<br>
-[次へ：第7章　悲劇の具体例](../chapter7/)<br>
+[次へ：第7章　ITシステム要求分析の悲劇](../chapter7/)<br>

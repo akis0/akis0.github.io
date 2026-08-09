@@ -94,5 +94,5 @@ aliases = ["/tech/2026/requirements-tragedy/chapter8.html"]
 
 
 [章立てへ](../)<br>
-[戻る：第7章　悲劇の具体例](../chapter7/)<br>
+[戻る：第7章　ITシステム要求分析の悲劇](../chapter7/)<br>
 [次へ：終章　量なき要求は、要求ではない](../final/)<br>
