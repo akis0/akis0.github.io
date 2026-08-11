@@ -2,8 +2,8 @@
 title = "第1章　すべての機能は正常に動作した"
 date = 2026-08-09
 template = "page.html"
-path = "tech/2026/requirements-tragedy/chapter1"
-aliases = ["/tech/2026/requirements-tragedy/chapter1.html"]
+path = "tech/2026/product-tragedy/chapter1"
+aliases = ["/tech/2026/product-tragedy/chapter1.html"]
 +++
 
 > 全体は部分の総和以上のものである <br>
@@ -27,3 +27,12 @@ aliases = ["/tech/2026/requirements-tragedy/chapter1.html"]
 しかし社内検証では、すべての機能が要求仕様を満たしています。故障率も基準内、統合試験も合格、発売判定会議にも重大な異論はなかった。そこで問いを置きます。
 
 すべての部門が仕事を完遂したのに、なぜ製品だけが失敗したのか。
+
+
+
+ある電機企業が、
+
+
+
+
+

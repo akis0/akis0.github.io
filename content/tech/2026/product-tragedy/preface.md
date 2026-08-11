@@ -2,8 +2,8 @@
 title = "前書き"
 date = 2026-08-09
 template = "page.html"
-path = "tech/2026/requirements-tragedy/preface"
-aliases = ["/tech/2026/requirements-tragedy/preface.html"]
+path = "tech/2026/product-tragedy/preface"
+aliases = ["/tech/2026/product-tragedy/preface.html"]
 +++
 
 # 前書き

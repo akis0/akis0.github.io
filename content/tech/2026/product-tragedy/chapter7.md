@@ -6,9 +6,9 @@ date = 2026-08-09
 
 template = "page.html"
 
-path = "tech/2026/requirements-tragedy/chapter7"
+path = "tech/2026/product-tragedy/chapter7"
 
-aliases = ["/tech/2026/requirements-tragedy/chapter7.html"]
+aliases = ["/tech/2026/product-tragedy/chapter7.html"]
 
 +++
 
