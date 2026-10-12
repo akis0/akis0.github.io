@@ -1,5 +1,5 @@
 +++
-title = "トラブル分析の悲劇――複雑性の行方と責任の所在"
+title = "複雑性管理の悲劇――火消しが評価され、構造が温存される組織"
 date = 2026-10-13
 template = "page.html"
 path = "tech/2026/2026-10-complexity-management-tragedy"
