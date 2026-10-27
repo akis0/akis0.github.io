@@ -10,6 +10,8 @@ aliases = ["/tech/2026/2026-10-vuca-or-laziness.html"]
 # VUCAという名の経営的怠慢
 ### ――『超限戦』とトヨタ製品開発システムから問う、事業部制という時代遅れの経営思想
 
+[v1: 2026-10-28](https://github.com/akis0/akis0.github.io/commit/7b31e44a1bba7c2ea3256f42f978105eb114e18b)
+
 ## 1. 世界は本当に複雑になったのか
 
 「VUCAの時代」という言葉がある。
