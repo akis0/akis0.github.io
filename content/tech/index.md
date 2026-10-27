@@ -13,3 +13,4 @@ title: 技術関係記事
 - [プロダクト統合の悲劇(2026-08)](2026/product-tragedy)
 - [システム思考で捉えるSafety, Reliability, Resilience(2026-08)](2026/2026-08-system-failure.html)
 - [複雑性管理の悲劇――火消しが評価され、構造が温存される組織(2026-10)](2026/2026-10-complexity-management-tragedy.html)
+- [VUCAという名の経営的怠慢――『超限戦』とトヨタ製品開発システムから問う、事業部制という時代遅れの経営思想(2026-10)](2026/2026-10-vuca-or-laziness.html)
