@@ -1,14 +1,4 @@
 {% extends "base.html" %}
-{% block title %}
-  {% if page.title %}
-    {{ page.title }}
-  {% elif page.toc and page.toc | length > 0 %}
-    {% set heading = page.toc | first %}{{ heading.title }}
-  {% else %}
-    {{ page.path | default(value=config.title) }}
-  {% endif %}
-{% endblock title %}
-
 {% block content %}
   {% if page.title %}
     {% set display_title = page.title %}

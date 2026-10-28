@@ -3,11 +3,33 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>{% block title %}{{ page.title | default(value=section.title) | default(value=config.title) | default(value='') }}{% endblock title %}</title>
-  {% if page.description %}
+  {% if page is defined %}
+    {% if page.title %}
+      {% set metadata_title = page.title %}
+    {% elif page.toc and page.toc | length > 0 %}
+      {% set heading = page.toc | first %}
+      {% set metadata_title = heading.title %}
+    {% else %}
+      {% set metadata_title = page.path | default(value=config.title) %}
+    {% endif %}
+  {% endif %}
+  <title>{% block title %}{{ metadata_title | default(value=section.title) | default(value=config.title) | default(value='') }}{% endblock title %}</title>
+  {% if page is defined and page.description %}
     <meta name="description" content="{{ page.description }}" />
   {% elif section is defined and section.description %}
     <meta name="description" content="{{ section.description }}" />
+  {% endif %}
+  {% if page is defined %}
+    <link rel="canonical" href="{{ page.permalink }}" />
+    <meta property="og:url" content="{{ page.permalink }}" />
+    <meta property="og:type" content="{% if page.date %}article{% else %}website{% endif %}" />
+    <meta property="og:title" content="{{ metadata_title }}" />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="{{ metadata_title }}" />
+    {% if page.description %}
+      <meta property="og:description" content="{{ page.description }}" />
+      <meta name="twitter:description" content="{{ page.description }}" />
+    {% endif %}
   {% endif %}
   {% if config.extra.google_site_verification %}
     <meta name="google-site-verification" content="{{ config.extra.google_site_verification }}" />
