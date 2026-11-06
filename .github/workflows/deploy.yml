@@ -16,7 +16,7 @@ jobs:
       deployments: write
 
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
 
       # ---- Build (Zola) ----
       - name: Build site with Zola (Docker)
@@ -29,8 +29,9 @@ jobs:
 
       # ---- Deploy (Cloudflare Pages Direct Upload) ----
       - name: Deploy to Cloudflare Pages
-        uses: cloudflare/wrangler-action@v3
+        uses: cloudflare/wrangler-action@v4
         with:
+          wranglerVersion: "3.90.0"
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
           command: pages deploy public --project-name=${{ secrets.CF_PAGES_PROJECT }}
